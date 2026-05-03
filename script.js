@@ -207,7 +207,7 @@ document.querySelectorAll('.product-btn').forEach(btn => {
     btn.addEventListener('click', function() {
         const productName = this.parentElement.querySelector('h3').textContent;
         const message = `Hi! I'm interested in ordering ${productName} from Ankur Enterprises. Please share more details and pricing.`;
-        window.open(`https://wa.me/919876543210?text=${encodeURIComponent(message)}`, '_blank');
+        window.open(`https://wa.me/917249028344?text=${encodeURIComponent(message)}`, '_blank');
     });
 });
 
